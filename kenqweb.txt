@@ -1,2 +1,6 @@
-passphrase : kenqweb
+秘密鍵 kenqweb.key も、
+Windows用証明書ファイル kenqweb.pfx も
+パスフレーズは kenqweb
+
+ です。
 
