@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cp /mnt/c/Windows/System32/drivers/etc/hosts hosts-$HOSTNAME.txt
+cp /mnt/c/Windows/System32/drivers/etc/hosts hosts-windows-$HOSTNAME.txt
 chmod +w hosts-$HOSTNAME.txt
 chmod -x hosts-$HOSTNAME.txt
 
