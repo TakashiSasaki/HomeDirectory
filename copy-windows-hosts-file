@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cp /mnt/c/Windows/System32/drivers/etc/hosts hosts-$HOSTNAME.txt
+chmod +w hosts-$HOSTNAME.txt
+
+
