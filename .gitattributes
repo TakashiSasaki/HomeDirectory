@@ -1,0 +1,3 @@
+*.sqlite2 binary filter=sqlite2
+*.sqlite3 binary filter=sqlite3
+

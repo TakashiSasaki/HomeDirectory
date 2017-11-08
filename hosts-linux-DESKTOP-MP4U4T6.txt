@@ -5,7 +5,8 @@
 192.168.0.249	jessie
 192.168.0.254	stretch
 133.71.3.147	ts1079pro
-133.71.3.2	sasaki64
+133.71.3.2      sasaki64
+133.71.200.56   kenqweb2
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback
