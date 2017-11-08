@@ -1,0 +1,8 @@
+[filter "sqlite2"]
+  smudge = sqlite2restore
+  clean = sqlite2dump
+
+[filter "sqlite3"]
+  smudge = sqlite3restore
+  clean = sqlite3dump
+
