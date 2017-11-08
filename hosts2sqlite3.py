@@ -13,6 +13,10 @@ for x in sys.stdin:
 
 connection = sqlite3.connect("hosts.sqlite3")
 cursor = connection.cursor()
-cursor.executemany("insert into hosts (host, address) values(?,?)", pairs)
+for pair in pairs:
+  try:
+    cursor.execute("insert into hosts (host, address) values(?,?)", pair)
+  except sqlite3.IntegrityError as e:
+    print("%s %s already exists." % pair)
 connection.commit()
 
