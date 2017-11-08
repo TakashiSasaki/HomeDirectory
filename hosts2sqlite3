@@ -17,6 +17,6 @@ for pair in pairs:
   try:
     cursor.execute("insert into hosts (host, address) values(?,?)", pair)
   except sqlite3.IntegrityError as e:
-    print("%s %s already exists." % pair)
+    sys.stderr.write("%s %s already exists.\n" % pair)
 connection.commit()
 
