@@ -1,3 +1,0 @@
-#!/bin/bash
-cp /etc/hosts hosts-linux-$HOSTNAME.txt
-

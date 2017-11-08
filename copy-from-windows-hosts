@@ -1,7 +1,0 @@
-#!/bin/bash
-
-cp /mnt/c/Windows/System32/drivers/etc/hosts hosts-windows-$HOSTNAME.txt
-chmod +w hosts-*.txt
-chmod -x hosts-*.txt
-
-
