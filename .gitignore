@@ -6,3 +6,4 @@
 .viminfo
 .node_repl_history
 .sudo_as_admin_successful
+.npm/
