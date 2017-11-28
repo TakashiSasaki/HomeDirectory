@@ -1,0 +1,14 @@
+.bash_history
+.bash_logout
+.lesshst
+.config/
+.python_history
+.viminfo
+.node_repl_history
+.sudo_as_admin_successful
+.npm/
+.cache/
+.rnd
+.wget-hsts
+tmp/
+.cloud-locale-test.skip
