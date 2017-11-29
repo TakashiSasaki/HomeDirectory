@@ -7,3 +7,11 @@ if [ -e /etc/debian_version ]; then
   type sqlite3; if [ $? -gt 0 ]; then sudo apt install; fi
 fi
 
+type python3
+if [ $? -eq 0 ]; then
+  python3 -c "import git"
+  if [ $? -gt 0 ]; then
+    sudo apt install python3-git -y
+  fi
+fi
+
