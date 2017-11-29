@@ -8,3 +8,8 @@
 .sudo_as_admin_successful
 .npm/
 .sqlite_history
+.cache/
+.rnd
+.wget-hsts
+tmp/
+.cloud-locale-test.skip
