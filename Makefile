@@ -1,8 +1,8 @@
 all: windows linux
 
 windows:
-	./cat-windows-hosts | ./hosts2sqlite3
+	cat hosts.windows | ./hosts2sqlite3
 
 linux:
-	./cat-linux-hosts | ./hosts2sqlite3
+	cat /etc/hosts | ./hosts2sqlite3
 
