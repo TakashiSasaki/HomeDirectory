@@ -13,5 +13,9 @@ if [ $? -eq 0 ]; then
   if [ $? -gt 0 ]; then
     sudo apt install python3-git -y
   fi
+  python3 -c "apt_pkg"
+  if [ $? -gt 0 ]; then
+    sudo apt install python3-apt python3-apt-dbg -y
+  fi
 fi
 
