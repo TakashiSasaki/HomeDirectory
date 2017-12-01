@@ -6,12 +6,22 @@ orphanedKeys = []
 orphanedValues = []
 
 def getArgs():
+  global args
   return copy.deepcopy(args)
 
+def getOrphanedKeys():
+  global orphanedKeys
+  return copy.deepcopy(orphanedKeys)
+
+def getOrphanedValues():
+  global orphanedValues
+  return copy.deepcopy(orphanedValues)
+
 def setTemplate(template):
+  global args
   args = copy.deepcopy(template)
 
-def readArgs(argv=None):
+def readArgv(argv=None):
   if argv is None: 
     argv = sys.argv
   
@@ -24,13 +34,13 @@ def readArgs(argv=None):
       continue 
     else:
       m1 = m.group(1)
-      if m1 in template:
-        if template[m1] == True or template[m1] ==False:
-          template[m1] = True
+      if m1 in args:
+        if args[m1] == True or args[m1] == False:
+          args[m1] = True
           i += 1
           continue
         else:
-          template[m1].append(argv[i+1])
+          args[m1].append(argv[i+1])
           i += 2
           continue
       else:
@@ -43,8 +53,8 @@ if __name__ == "__main__":
   allStdin = sys.stdin.read()
   template = json.loads(allStdin)
   setTemplate(template)
-  readArgs()
-  print("template = %s" % template)
-  print("orphanedKeys = %s" % orphanedKeys) 
-  print("orphanedValues = %s" % orphanedValues)
+  readArgv()
+  print("args = %s" % getArgs())
+  print("orphanedKeys = %s" % getOrphanedKeys()) 
+  print("orphanedValues = %s" % getOrphanedValues())
 

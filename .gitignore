@@ -13,3 +13,4 @@
 .wget-hsts
 tmp/
 .cloud-locale-test.skip
+script/__pycache__/
