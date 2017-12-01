@@ -5,9 +5,11 @@ args = {}
 orphanedKeys = []
 orphanedValues = []
 
+def getArgs():
+  return copy.deepcopy(args)
+
 def setTemplate(template):
   args = copy.deepcopy(template)
-
 
 def readArgs(argv=None):
   if argv is None: 
