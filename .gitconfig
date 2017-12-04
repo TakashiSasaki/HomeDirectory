@@ -15,3 +15,7 @@
   smudge = sqlite3restore
   clean = sqlite3dump
 
+[pack]
+	threads = 2
+	windowMemory = 50m
+	packSizeLimit = 50m
