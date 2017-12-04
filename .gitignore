@@ -14,3 +14,5 @@
 tmp/
 .cloud-locale-test.skip
 script/__pycache__/
+.bashrc.swp
+scripts/.option.py.swp
