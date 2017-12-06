@@ -1,7 +1,3 @@
 [submodule "GitSqlite"]
 	path = GitSqlite
 	url = ssh://git@ts1079pro:10022/takashi/git-sqlite.git
-[submodule ".vim"]
-	path = .vim
-	url = ssh://git@ts1079pro:10022/TakashiSasaki/DotVim.git
-	branch = stretch
