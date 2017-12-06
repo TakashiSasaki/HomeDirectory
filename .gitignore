@@ -14,7 +14,6 @@ tmp/
 .cloud-locale-test.skip
 script/__pycache__/
 .bashrc.swp
-scripts/.option.py.swp
 .ssh/.listkeys.py.swp
 .ssh/id_rsa
 .ssh/id_rsa.pub
