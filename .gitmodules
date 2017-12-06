@@ -9,6 +9,3 @@
 	path = .vim
 	url = ssh://git@ts1079pro:10022/TakashiSasaki/DotVim.git
 	branch = stretch
-[submodule "hosts"]
-	path = hosts
-	url = ssh://git@ts1079pro:10022/TakashiSasaki/hosts.git
