@@ -1,6 +1,3 @@
-[submodule "GitSqlite"]
-	path = GitSqlite
-	url = ssh://git@ts1079pro:10022/takashi/git-sqlite.git
 [submodule ".ssh"]
 	path = .ssh
 	url = ssh://git@ts1079pro:10022/TakashiSasaki/DotSsh.git

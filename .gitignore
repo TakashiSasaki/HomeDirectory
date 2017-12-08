@@ -1,10 +1,8 @@
 .bash_history
 .lesshst
 .viminfo
-.lesshst
 .config/
 .python_history
-.viminfo
 .node_repl_history
 .sudo_as_admin_successful
 .npm/
@@ -17,3 +15,16 @@ tmp/
 script/__pycache__/
 .bashrc.swp
 scripts/.option.py.swp
+.ssh/.listkeys.py.swp
+.ssh/id_rsa
+.ssh/id_rsa.pub
+.ssh/id_dsa
+.ssh/id_dsa.pub
+.ssh/id_ecdsa
+.ssh/id_ecdsa.pub
+.ssh/id_ed25519
+.ssh/id_ed25519.pub
+.openconnect.enc
+.vim/.netrwhist
+GitSqlite
+
