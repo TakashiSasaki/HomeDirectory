@@ -1,0 +1,21 @@
+[user]
+	email = takashi316@gmail.com
+	name = Takashi SASAKI
+[push]
+	default = matching
+# git-sqlite v0.0.1 by Takashi SASAKI https://twitter.com/TakashiSasaki
+# Add these filter definition to your .git/config file.
+# Do not forget to modify .gitattributes file in your repository as well.
+
+[filter "sqlite2"]
+  smudge = sqlite2restore
+  clean = sqlite2dump
+
+[filter "sqlite3"]
+  smudge = sqlite3restore
+  clean = sqlite3dump
+
+[pack]
+	threads = 2
+	windowMemory = 50m
+	packSizeLimit = 50m
