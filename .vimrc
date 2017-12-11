@@ -1,6 +1,15 @@
 set expandtab
 set tabstop=2
 set shiftwidth=2
+set smartindent
+set smarttab
+syntax on
+set number
+set showmatch
+set showcmd
+set noswapfile
+set smartcase
+set incsearch
 
 "--------------------------------------------------------------------------
 " neobundle
