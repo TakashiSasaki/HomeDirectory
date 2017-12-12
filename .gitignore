@@ -1,6 +1,6 @@
 .bash_history
-.viminfo
 .lesshst
+.viminfo
 .config/
 .python_history
 .node_repl_history
@@ -24,3 +24,6 @@ script/__pycache__/
 .ssh/id_ed25519
 .ssh/id_ed25519.pub
 .openconnect.enc
+.vim/.netrwhist
+GitSqlite
+
