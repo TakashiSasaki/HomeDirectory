@@ -1,7 +1,7 @@
 all: windows linux
 
 windows:
-	cat hosts.windows | ./hosts2sqlite3.py
+	cat /mnt/c/Windows/System32/drivers/etc/hosts | ./hosts2sqlite3.py
 
 linux:
 	cat /etc/hosts | ./hosts2sqlite3.py

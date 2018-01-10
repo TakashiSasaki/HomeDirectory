@@ -1,3 +1,11 @@
-[submodule "GitSqlite"]
-	path = GitSqlite
-	url = ssh://git@ts1079pro:10022/takashi/git-sqlite.git
+[submodule ".ssh"]
+	path = .ssh
+	url = ssh://git@ts1079pro:10022/TakashiSasaki/DotSsh.git
+	branch = stretch
+[submodule ".vim"]
+	path = .vim
+	url = ssh://git@ts1079pro:10022/TakashiSasaki/DotVim.git
+	branch = stretch
+[submodule "hosts"]
+	path = hosts
+	url = ssh://git@ts1079pro:10022/TakashiSasaki/hosts.git
