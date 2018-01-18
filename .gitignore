@@ -27,4 +27,11 @@ script/__pycache__/
 .vim/.netrwhist
 GitSqlite
 
-.vim/bundle/NeoBundle.lock
+/.vim/bundle/NeoBundle.lock
+/.julia_history
+
+/index?*
+
+/*_amd64.deb
+/*_amd64.deb.1
+
