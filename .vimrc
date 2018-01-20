@@ -23,6 +23,7 @@ endif
 
 call neobundle#begin(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
+NeoBundle 'vim-scripts/dbext.vim'
 call neobundle#end()
 
 filetype plugin indent on     " Required!
@@ -34,4 +35,5 @@ if neobundle#exists_not_installed_bundles()
   echomsg 'Please execute ":NeoBundleInstall" command.'
   "finish
 endif
+
 

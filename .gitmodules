@@ -4,8 +4,11 @@
 	branch = stretch
 [submodule ".vim"]
 	path = .vim
-	url = ssh://git@ts1079pro:10022/TakashiSasaki/DotVim.git
+	url = git@github.com:TakashiSasaki/dotVim.git
 	branch = stretch
 [submodule "hosts"]
 	path = hosts
 	url = ssh://git@ts1079pro:10022/TakashiSasaki/hosts.git
+[submodule "git-sqlite"]
+	path = git-sqlite
+	url = git@github.com:TakashiSasaki/git-sqlite.git

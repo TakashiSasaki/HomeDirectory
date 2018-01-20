@@ -27,4 +27,5 @@ if [ -d  "$HOME/.local/bin" ] ; then
 fi
 
 export PYTHONPATH=$HOME/script
+export NODE_PATH=/usr/local/lib/node_modules
 
