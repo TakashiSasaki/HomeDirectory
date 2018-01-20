@@ -35,3 +35,5 @@ GitSqlite
 /*_amd64.deb
 /*_amd64.deb.1
 
+.ssh/id_rsa.pem
+.ssh/id_rsa.req
