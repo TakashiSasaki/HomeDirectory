@@ -29,3 +29,13 @@ GitSqlite
 
 .vim/bundle/NeoBundle.lock
 .vim/bundle/dbext.vim/
+/.vim/bundle/NeoBundle.lock
+/.julia_history
+
+/index?*
+
+/*_amd64.deb
+/*_amd64.deb.1
+
+.ssh/id_rsa.pem
+.ssh/id_rsa.req

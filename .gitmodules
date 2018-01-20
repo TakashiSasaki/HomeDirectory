@@ -4,7 +4,7 @@
 	branch = stretch
 [submodule ".vim"]
 	path = .vim
-	url = https://github.com/TakashiSasaki/dotVim.git
+	url = git@github.com:TakashiSasaki/dotVim.git
 	branch = stretch
 [submodule "hosts"]
 	path = hosts
