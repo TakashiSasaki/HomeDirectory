@@ -12,6 +12,8 @@ set smartcase
 set incsearch
 set browsedir=buffer
 
+autocmd BufEnter,BufNewFile,BufRead *.gs setfiletype javascript
+
 "--------------------------------------------------------------------------
 " neobundle
 set nocompatible               " Be iMproved

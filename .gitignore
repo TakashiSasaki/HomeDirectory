@@ -37,3 +37,4 @@ GitSqlite
 
 .ssh/id_rsa.pem
 .ssh/id_rsa.req
+.clasprc.json
