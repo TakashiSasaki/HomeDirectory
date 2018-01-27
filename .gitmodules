@@ -1,6 +1,6 @@
 [submodule ".ssh"]
 	path = .ssh
-	url = ssh://git@localhost:10022/TakashiSasaki/DotSsh.git
+	url = ssh://git@ts1079pro:10022/TakashiSasaki/DotSsh.git
 	branch = stretch
 [submodule ".vim"]
 	path = .vim
@@ -14,4 +14,7 @@
 	url = git@github.com:TakashiSasaki/git-sqlite.git
 [submodule "TopicModelIwata"]
 	path = TopicModelIwata
-	url = ssh://git@localhost:10022/TakashiSasaki/TopicModelIwata.git
+	url = ssh://git@ts1079pro:10022/TakashiSasaki/TopicModelIwata.git
+[submodule "dpt-rp1-py"]
+	path = dpt-rp1-py
+	url = https://github.com/janten/dpt-rp1-py.git
