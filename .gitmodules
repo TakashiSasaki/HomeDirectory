@@ -1,6 +1,6 @@
 [submodule ".ssh"]
 	path = .ssh
-	url = ssh://git@ts1079pro:10022/TakashiSasaki/DotSsh.git
+	url = ssh://git@localhost:10022/TakashiSasaki/DotSsh.git
 	branch = stretch
 [submodule ".vim"]
 	path = .vim
