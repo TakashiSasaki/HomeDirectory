@@ -12,3 +12,6 @@
 [submodule "git-sqlite"]
 	path = git-sqlite
 	url = git@github.com:TakashiSasaki/git-sqlite.git
+[submodule "TopicModelIwata"]
+	path = TopicModelIwata
+	url = ssh://git@localhost:10022/TakashiSasaki/TopicModelIwata.git
