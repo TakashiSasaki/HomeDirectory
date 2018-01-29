@@ -37,4 +37,5 @@ GitSqlite
 
 .ssh/id_rsa.pem
 .ssh/id_rsa.req
+.vim/bundle/NeoBundle.lock
 .clasprc.json
