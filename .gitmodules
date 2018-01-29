@@ -18,3 +18,6 @@
 [submodule "dpt-rp1-py"]
 	path = dpt-rp1-py
 	url = https://github.com/janten/dpt-rp1-py.git
+[submodule "Hosts"]
+	path = Hosts
+	url = ssh://git@ts1079pro:10022/TakashiSasaki/Hosts.git
