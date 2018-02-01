@@ -40,3 +40,9 @@ tmp/
 .viminfo
 .vim/.netrwhist
 .wget-hsts
+AppsScriptArchive/
+CacheHelper/
+GmailAddon/
+EncodingJs/
+CsvParser/
+dpt-rp1-py/
