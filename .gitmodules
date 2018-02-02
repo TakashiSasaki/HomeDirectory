@@ -13,5 +13,5 @@
 	path = git-sqlite
 	url = git@github.com:TakashiSasaki/git-sqlite.git
 [submodule "argv2json"]
-	path = argv2json
-	url = ssh://git@ts1079pro:10022/TakashiSasaki/argv2json.git
+	path = arg2json
+	url = ssh://git@ts1079pro:10022/TakashiSasaki/arg2json.git
