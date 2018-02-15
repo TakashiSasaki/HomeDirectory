@@ -1,0 +1,17 @@
+[submodule ".ssh"]
+	path = .ssh
+	url = ssh://git@ts1079pro:10022/TakashiSasaki/DotSsh.git
+	branch = stretch
+[submodule ".vim"]
+	path = .vim
+	url = git@github.com:TakashiSasaki/dotVim.git
+	branch = stretch
+[submodule "hosts"]
+	path = hosts
+	url = ssh://git@ts1079pro:10022/TakashiSasaki/hosts.git
+[submodule "git-sqlite"]
+	path = git-sqlite
+	url = git@github.com:TakashiSasaki/git-sqlite.git
+[submodule "argv2json"]
+	path = arg2json
+	url = ssh://git@ts1079pro:10022/TakashiSasaki/arg2json.git
