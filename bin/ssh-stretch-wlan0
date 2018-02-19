@@ -1,4 +1,4 @@
 #!/bin/sh
 #ssh -p 22249 sasaki@z47g33kj8p35ez.home-ip.aterm.jp -t "TERM=screen screen -dR"
-ssh -v -p 22133 takashi@192.168.0.133
+ssh -v -p 22134 takashi@192.168.0.134 -t "TERM=screen screen -dR"
 #ssh -p 10926 sasaki@z47g33kj8p35ez.home-ip.aterm.jp
