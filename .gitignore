@@ -63,3 +63,4 @@ trash
 .viminfo
 .vim/.netrwhist
 .wget-hsts
+bin/
