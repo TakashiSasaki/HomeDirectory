@@ -1,3 +1,0 @@
-#!/bin/sh
-ssh sasaki@192.168.0.250 -t "TERM=screen screen -dR"
-

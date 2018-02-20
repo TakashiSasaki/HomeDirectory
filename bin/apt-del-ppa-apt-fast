@@ -1,4 +1,0 @@
-#!/bin/sh
-sudo add-apt-repository ppa:apt-fast/stable -r -y
-
-
