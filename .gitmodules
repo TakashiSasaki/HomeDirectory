@@ -25,3 +25,6 @@
 [submodule "PrivateScripts"]
 	path = PrivateScripts
 	url = ./PrivateScripts
+[submodule "PublicScripts"]
+	path = PublicScripts
+	url = ssh://git@ts1079pro:10022/TakashiSasaki/PublicScripts.git
