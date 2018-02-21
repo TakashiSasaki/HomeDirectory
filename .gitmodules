@@ -22,3 +22,6 @@
 [submodule "argv2json"]
 	path = arg2json
 	url = ssh://git@ts1079pro:10022/TakashiSasaki/arg2json.git
+[submodule "PrivateScripts"]
+	path = PrivateScripts
+	url = ./PrivateScripts
