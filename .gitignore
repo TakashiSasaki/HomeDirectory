@@ -64,3 +64,8 @@ trash
 .vim/.netrwhist
 .wget-hsts
 bin/
+couchdb.stderr
+couchdb.stdout
+PrivateScripts/
+CouchDb/
+MyProgressStrip/
