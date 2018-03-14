@@ -57,3 +57,5 @@ trash
 .vim/.netrwhist
 .wget-hsts
 .gitignore.sorted
+HashWrapper/
+SyncWrapper/
