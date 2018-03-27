@@ -64,3 +64,5 @@ trash
 .vim/.netrwhist
 .wget-hsts
 bin/
+HashWrapper/
+MyAssert/
