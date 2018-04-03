@@ -60,3 +60,5 @@ trash
 HashWrapper/
 SyncWrapper/
 DescisionTree/
+git-sqlite/
+.Makefile.swp
