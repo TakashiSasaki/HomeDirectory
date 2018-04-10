@@ -66,3 +66,12 @@ trash
 bin/
 HashWrapper/
 MyAssert/
+.fzf/
+.scala_history
+DescisionTree/
+HelloScalaz/
+SPHERE/
+git-sqlite/
+SyncWrapper/
+MyProgressStrip/
+CacheClipboard/
