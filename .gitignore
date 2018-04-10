@@ -73,3 +73,7 @@ HashWrapper/
 SyncWrapper/
 DescisionTree/
 git-sqlite/
+.ssh/
+.vim/
+PublicScripts/
+arg2json/
